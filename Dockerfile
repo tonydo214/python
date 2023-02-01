@@ -1,4 +1,4 @@
-FROM python:3.5.1-alpine
+FROM python:3.5.1-alpine@sha256:f88925c97b9709dd6da0cb2f811726da9d724464e9be17a964c70f067d2aa64a
 MAINTAINER Greg Taylor <gtaylor@gc-taylor.com>
 
 RUN pip install --upgrade pip setuptools wheel
